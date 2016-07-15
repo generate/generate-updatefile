@@ -2,6 +2,7 @@
 
 > Generate an updatefile.js for [update](https://github.com/update/update) in the current working directory or specified `--dest`.
 
+<br>
 ![generate-updatefile demo](https://raw.githubusercontent.com/generate/generate-updatefile/master/demo.gif)
 
 ## Table of Contents
