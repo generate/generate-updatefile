@@ -1,0 +1,106 @@
+{
+  "name": "generate-updatefile",
+  "description": "Generate an updatefile.js in the current working directory or specified `--dest`.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/generate/generate-updatefile",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "generate/generate-updatefile",
+  "bugs": {
+    "url": "https://github.com/generate/generate-updatefile/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "generator.js",
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "templates"
+  ],
+  "main": "generator.js",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=4.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-valid-app": "^0.2.0"
+  },
+  "devDependencies": {
+    "delete": "^0.3.2",
+    "generate": "^0.9.5",
+    "global-modules": "^0.2.2",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
+    "npm-install-global": "^0.1.2"
+  },
+  "keywords": [
+    "boilerplate",
+    "build",
+    "cli",
+    "cli-app",
+    "command-line",
+    "create",
+    "dev",
+    "development",
+    "framework",
+    "front",
+    "frontend",
+    "generate",
+    "generate-generator",
+    "generate-plugin",
+    "generategenerator",
+    "generateplugin",
+    "generator",
+    "init",
+    "initialize",
+    "new",
+    "node",
+    "plugin",
+    "project",
+    "projects",
+    "scaffold",
+    "scaffolder",
+    "scaffolding",
+    "template",
+    "templates",
+    "updatefile",
+    "webapp",
+    "yeoman",
+    "yo"
+  ],
+  "lintDeps": {
+    "ignore": [
+      "templates"
+    ]
+  },
+  "verb": {
+    "toc": true,
+    "layout": "common-minimal",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "assemble",
+        "generate",
+        "update"
+      ]
+    },
+    "reflinks": [
+      "gulp",
+      "base",
+      "assemble",
+      "generate",
+      "generate-install",
+      "generate-dest"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
