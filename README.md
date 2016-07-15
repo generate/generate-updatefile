@@ -1,6 +1,6 @@
 # generate-updatefile [![NPM version](https://img.shields.io/npm/v/generate-updatefile.svg?style=flat)](https://www.npmjs.com/package/generate-updatefile) [![NPM downloads](https://img.shields.io/npm/dm/generate-updatefile.svg?style=flat)](https://npmjs.org/package/generate-updatefile) [![Build Status](https://img.shields.io/travis/generate/generate-updatefile.svg?style=flat)](https://travis-ci.org/generate/generate-updatefile)
 
-> Generate an updatefile.js in the current working directory or specified `--dest`.
+> Generate an updatefile.js for [update](https://github.com/update/update) in the current working directory or specified `--dest`.
 
 ![generate-updatefile demo](https://raw.githubusercontent.com/generate/generate-updatefile/master/demo.gif)
 

@@ -1,6 +1,6 @@
 {
   "name": "generate-updatefile",
-  "description": "Generate an updatefile.js in the current working directory or specified `--dest`.",
+  "description": "Generate an updatefile.js for [update] in the current working directory or specified `--dest`.",
   "version": "0.1.0",
   "homepage": "https://github.com/generate/generate-updatefile",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
